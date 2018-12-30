@@ -100,10 +100,10 @@
     [data writeToFile:path atomically:YES];
 }
 
-#pragma mark ————— 调用分类里的方法添加水印 —————
+#pragma mark ————— 调用分类的方法添加水印 —————
 - (void)callCategoryMethod
 {
-    UIImage *image = [UIImage watermarkWithBackgroundImageName:@"1" watermarkImageName:@"baidu" watermarkWord:@"iOS开发者"];
+    UIImage *image = [UIImage watermarkWithBackgroundImage:@"1" watermarkImage:@"baidu" watermarkWord:@"iOS开发者"];
     
     self.imageView.image = image;
 }

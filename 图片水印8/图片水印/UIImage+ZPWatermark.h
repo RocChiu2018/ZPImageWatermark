@@ -15,7 +15,7 @@ NS_ASSUME_NONNULL_BEGIN
 
 @interface UIImage (ZPWatermark)
 
-+ (instancetype)watermarkWithBackgroundImageName:(NSString *)bgImageName watermarkImageName:(NSString *)watermarkImageName watermarkWord:(NSString *)watermarkWord;
++ (instancetype)watermarkWithBackgroundImage:(NSString *)bgImageName watermarkImage:(NSString *)watermarkImageName watermarkWord:(NSString *)watermarkWord;
 
 @end
 
